@@ -1,5 +1,6 @@
 import React from 'react'
-import "./Topbar.css"
+import "./topbar.css"
+import Yuta from './yuta.png'
 import {NotificationsNone, Language, Settings} from '@material-ui/icons';
 export default function Topbar() {
     return (
@@ -21,6 +22,7 @@ export default function Topbar() {
                         <Settings/>
                         <span className="topIconBadge">2</span>
                     </div>
+                    <img src={Yuta} alt="" className="topAvatar" />
                 </div>
 
             </div>
