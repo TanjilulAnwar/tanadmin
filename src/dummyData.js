@@ -62,3 +62,79 @@ export  const userData = [
 
 ];
 
+
+export const userRows = [
+    { id: 1,
+    username: 'Jon Snow',
+    avatar: "https://static.generated.photos/vue-static/face-generator/landing/wall/9.jpg",
+    email:"Jon@email.com",
+    status:"active",
+    transaction:"৳ 122.5"
+    },
+    { id: 2,
+        username: 'Lana Stark',
+        avatar: "https://static.generated.photos/vue-static/face-generator/landing/wall/10.jpg",
+        email:"Jon@email.com",
+        status:"active",
+        transaction:"৳ 122.5"
+    },
+    { id: 3,
+        username: 'Mia Farrow',
+        avatar: "https://static.generated.photos/vue-static/face-generator/landing/wall/11.jpg",
+        email:"Jon@email.com",
+        status:"active",
+        transaction:"৳ 122.5"
+    },
+    { id: 4,
+        username: 'Santi Kai',
+        avatar: "https://static.generated.photos/vue-static/face-generator/landing/wall/12.jpg",
+        email:"Jon@email.com",
+        status:"active",
+        transaction:"৳ 122.5"
+    },
+    { id: 5,
+        username: 'Suar Bacca',
+        avatar: "https://static.generated.photos/vue-static/face-generator/landing/wall/13.jpg",
+        email:"Jon@email.com",
+        status:"active",
+        transaction:"৳ 122.5"
+    },
+    { id: 6,
+        username: 'Jon Snow',
+        avatar: "https://static.generated.photos/vue-static/face-generator/landing/wall/14.jpg",
+        email:"Jon@email.com",
+        status:"active",
+        transaction:"৳ 122.5"
+    },
+    { id: 7,
+        username: 'Jon Snow',
+        avatar: "https://static.generated.photos/vue-static/face-generator/landing/wall/9.jpg",
+        email:"Jon@email.com",
+        status:"active",
+        transaction:"৳ 122.5"
+    },
+        { id: 8,
+            username: 'Lana Stark',
+            avatar: "https://static.generated.photos/vue-static/face-generator/landing/wall/10.jpg",
+            email:"Jon@email.com",
+            status:"active",
+            transaction:"৳ 122.5"
+        },
+        { id: 9,
+            username: 'Mia Farrow',
+            avatar: "https://static.generated.photos/vue-static/face-generator/landing/wall/11.jpg",
+            email:"Jon@email.com",
+            status:"active",
+            transaction:"৳ 122.5"
+        },
+        { id: 10,
+            username: 'Santi Kai',
+            avatar: "https://static.generated.photos/vue-static/face-generator/landing/wall/12.jpg",
+            email:"Jon@email.com",
+            status:"active",
+            transaction:"৳ 122.5"
+        }
+        
+
+  ];
+
