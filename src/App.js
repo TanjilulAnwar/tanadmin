@@ -8,6 +8,7 @@ import {
   Route
 } from "react-router-dom";
 import UserList from "./pages/userList/UserList";
+import User from "./pages/user/User";
 
 function App() {
   return (
@@ -22,9 +23,9 @@ function App() {
           <Route path="/users">
           <UserList/>
           </Route>
-          {/* <Route path="/">
-
-          </Route> */}
+          <Route path="/user/:userId">
+          <User/>
+          </Route>
         </Switch>
       </div>
     </Router>

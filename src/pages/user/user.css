@@ -1,0 +1,75 @@
+.user{
+    flex: 5; 
+    padding: 20px;
+}
+
+.userTitleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.userAddButton{
+    width: 80px;
+    border:none;
+    padding: 5px;
+    background-color: #04d4a7;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+}
+
+.userContainer{
+    display: flex;
+    margin-top: 20px;
+}
+.userShow{
+
+    flex:1;
+    padding: 20px;
+    box-shadow: -1px 0px 3px 3px rgba(0,0,0,0.11);
+    -webkit-box-shadow: -1px 0px 3px 3px rgba(0,0,0,0.11);
+    -moz-box-shadow: -1px 0px 3px 3px rgba(0,0,0,0.11);
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.userUpdate{
+    flex:2;
+    padding: 20px;
+    box-shadow: -1px 0px 3px 3px rgba(0,0,0,0.11);
+    -webkit-box-shadow: -1px 0px 3px 3px rgba(0,0,0,0.11);
+    -moz-box-shadow: -1px 0px 3px 3px rgba(0,0,0,0.11);
+    border-radius: 10px;
+
+}
+
+.userShowTop{
+    display: flex;
+    align-items:center;
+}
+.userShowImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.userShowTopTitle{
+display: flex;
+flex-direction: column;
+margin-left: 20px;
+}
+
+.userShowUserName{
+    font-weight: 600;
+}
+.userShowUsertitle{
+    font-weight: 300;
+}
+
+.userShowTitle{
+
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(175, 170, 170);
+}
