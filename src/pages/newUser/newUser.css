@@ -1,0 +1,160 @@
+.newUser{
+    flex: 5;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.newUserForm{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.newUserItem{
+   width: 400px;
+   display: flex;
+   flex-direction: column;
+   margin-top: 10px;
+   margin-right: 20px;
+
+}
+
+.newUserItem>label{
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(109, 109, 109);
+ }
+ .newUserItem>input{
+    height: 20px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+ }
+
+
+.newUserGender > input{
+margin-top: 15px;
+}
+
+.newUserGender > input[type='radio']:after{
+    width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: #d1d3d1;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+        cursor: pointer;
+}
+
+.newUserGender > input[type='radio']:checked:after{
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #04d4a7;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+
+
+.newUserGender > label{
+    margin: 10px;
+    font-size: 15px;
+    font-weight: 300;
+    color: #555;
+}
+
+.newUserSelect{
+    height: 30px;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.newUserButton{
+    width: 100px;
+    border: 2px solid #04d4a7;
+    background-color: white;
+    color: #04d4a7;
+    padding: 10px 10px;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+
+
+}
+
+.newUserItem>select{
+     /* Reset */
+  appearance: none;
+  border: 0;
+  outline: 0;
+  font: inherit;
+  /* Personalize */
+  width: 10em;
+  padding: 0 4em 0 1em;
+  background: url(https://upload.wikimedia.org/wikipedia/commons/9/9d/Caret_down_font_awesome_whitevariation.svg)
+      no-repeat right 0.8em center / 1.4em,
+    linear-gradient(to left, rgba(255, 255, 255, 0.3) 3em, rgba(255, 255, 255, 0.2) 3em);
+  color: #04d4a7;
+  border-radius: 0.25em;
+  border:2px solid #04d4a7;
+  cursor: pointer;}
+  /* <option> colors */
+  option {
+    appearance: none;
+    color: white;
+    background-color: #04d4a7;
+    border-radius: 10px;
+   
+}
+
+option:hover {
+    appearance: none;
+    color: white;
+    background: #04d4a7;
+   
+}
+option:checked {
+    appearance: none;
+    color: white;
+    background-color: #04d4a7;
+   
+}
+
+.newUserItem>select:hover{
+    color: white;
+    background-color: #04d4a7;
+}
+
+
+.select-selected {
+    background-color: DodgerBlue;
+  }
+  
+  /*style the arrow inside the select element:*/
+  .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+  }
+
+  
+

@@ -63,6 +63,32 @@ export  const userData = [
 ];
 
 
+export  const productData = [
+    {
+        name: 'Jan',
+        'Sales': 4000,
+
+    },
+    {
+        name: 'Feb',
+        'Sales': 3000,
+
+    },
+    {
+        name: 'Mar',
+        'Sales': 2000,
+
+    },
+    
+
+];
+
+
+
+
+
+
+
 export const userRows = [
     { id: 1,
     username: 'Jon Snow',
@@ -133,6 +159,83 @@ export const userRows = [
             email:"Jon@email.com",
             status:"active",
             transaction:"৳ 122.5"
+        }
+        
+
+  ];
+
+
+
+  export const productRows = [
+    { id: 1,
+    name: 'Apple AirPod',
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2SqayoErppARnoHqM6TOgUn-cmOiCwp-hNQ&usqp=CAU",
+    stock:123,
+    status:"active",
+    price:"৳ 122.5"
+    },
+    { id: 2,
+        name: 'Apple AirPod',
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2SqayoErppARnoHqM6TOgUn-cmOiCwp-hNQ&usqp=CAU",
+        stock:123,
+        status:"active",
+        price:"৳ 122.5"
+    },
+    { id: 3,
+        name: 'Apple AirPod',
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2SqayoErppARnoHqM6TOgUn-cmOiCwp-hNQ&usqp=CAU",
+        stock:123,
+        status:"active",
+        price:"৳ 122.5"
+    },
+    { id: 4,
+        name: 'Apple AirPod',
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2SqayoErppARnoHqM6TOgUn-cmOiCwp-hNQ&usqp=CAU",
+        stock:123,
+        status:"active",
+        price:"৳ 122.5"
+    },
+    { id: 5,
+        name: 'Apple AirPod',
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2SqayoErppARnoHqM6TOgUn-cmOiCwp-hNQ&usqp=CAU",
+        stock:123,
+        status:"active",
+        price:"৳ 122.5"
+    },
+    { id: 6,
+        name: 'Apple AirPod',
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2SqayoErppARnoHqM6TOgUn-cmOiCwp-hNQ&usqp=CAU",
+        stock:123,
+        status:"active",
+        price:"৳ 122.5"
+    },
+    { id: 7,
+        name: 'Apple AirPod',
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2SqayoErppARnoHqM6TOgUn-cmOiCwp-hNQ&usqp=CAU",
+        stock:123,
+        status:"active",
+        price:"৳ 122.5"
+    },
+        { id: 8,
+            name: 'Apple AirPod',
+            img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2SqayoErppARnoHqM6TOgUn-cmOiCwp-hNQ&usqp=CAU",
+            stock:123,
+            status:"active",
+            price:"৳ 122.5"
+        },
+        { id: 9,
+            name: 'Apple AirPod',
+            img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2SqayoErppARnoHqM6TOgUn-cmOiCwp-hNQ&usqp=CAU",
+            stock:123,
+            status:"active",
+            price:"৳ 122.5"
+        },
+        { id: 10,
+            name: 'Apple AirPod',
+            img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2SqayoErppARnoHqM6TOgUn-cmOiCwp-hNQ&usqp=CAU",
+            stock:123,
+            status:"active",
+            price:"৳ 122.5"
         }
         
 
